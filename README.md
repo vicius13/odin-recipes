@@ -1,30 +1,70 @@
-# Odin-recipes
+# Odin Recipes
 
-This project, suggested by [The Odin Project](https://www.theodinproject.com/), is a basic recipe website built using HTML5. It is designed to practice and demonstrate foundational HTML skills.
+This project, suggested by [The Odin Project](https://www.theodinproject.com/), is a basic recipe website built using **HTML5 and CSS**.
+It was created to practice fundamental web development concepts such as page structure, navigation, and basic styling.
 
 ## Project Structure
 
-- `index.html` – Main landing page of the website.
-- `brownie.html` – Recipe page for brownies.
-- `stroganoff.html` – Recipe page for beef stroganoff.
-- `lasagna.html` – Recipe page for lasagna.
+```
+odin-recipes
+│
+├── index.html
+├── style.css
+│
+├── recipes
+│   ├── brownie.html
+│   ├── lasagna.html
+│   └── stroganoff.html
+│
+└── images
+    ├── brownie.jpg
+    ├── lasagna.jpg
+    ├── stroganoff.jpg
+    └── top-header-odin-projects.png
+```
 
-## Purpose
+### Files
 
-The project is intended to test and improve basic HTML skills, including:
+* **index.html** – Main landing page listing all recipes.
+* **style.css** – Global stylesheet used across the entire website.
+* **recipes/** – Contains individual recipe pages.
+* **images/** – Stores all images used in the project.
 
-- Proper use of semantic tags like `<p>` and `<h1>`.
-- Creating internal links between pages.
-- Adding images to enhance content.
-- Structuring content in a clear and readable format.
+## Features
 
-## Usage
+* Internal navigation between pages.
+* Consistent layout across all recipes.
+* Reusable CSS for styling multiple pages.
+* Dark-themed color palette inspired by The Odin Project.
 
-1. Clone or download the repository.
-2. Open `index.html` in a web browser to view the main site.
-3. Navigate to individual recipe pages through the links provided on the main page.
+### Color Palette
+
+| Purpose               | Color                 |
+| --------------------- | --------------------- |
+| Highlight / Accent    | `#cc9543` (Odin Gold) |
+| Main Background       | `#2c2c2c`             |
+| Cards / Content Areas | `#1e1e1e`             |
+| Text                  | `#e5e5e5`             |
+
+## Skills Practiced
+
+This project focuses on core front-end fundamentals:
+
+* Structuring content using HTML
+* Organizing projects with folders
+* Creating navigation links between pages
+* Using images with proper attributes
+* Writing reusable CSS styles
+* Maintaining consistent layout across multiple pages
+
+## How to Run
+
+1. Clone or download this repository.
+2. Open **index.html** in a web browser.
+3. Click on any recipe to navigate to its page.
 
 ## Notes
 
-This is a beginner-level project focused on HTML structure. No Javascript or CSS.
+This is a beginner-level project focused on **HTML structure and basic CSS styling**.
+No JavaScript is used.
 

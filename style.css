@@ -1,4 +1,144 @@
+/* ===== FUNDO ===== */
+
+body {
+  background-color: #2c2c2c;
+  color: #e5e5e5;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  line-height: 1.6;
+}
+
+
+/* ===== CONTAINER PRINCIPAL ===== */
+
 .container {
-    background-color: #2c2c2c;
-    color: #e5e5e5;
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #1e1e1e;
+  border-radius: 10px;
+}
+
+
+/* ===== HEADER ===== */
+
+.header {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.title {
+  color: #cc9543;
+  margin-bottom: 10px;
+}
+
+.subtitle {
+  color: #e5e5e5;
+}
+
+
+/* ===== TÍTULOS DE RECEITA ===== */
+
+.recipe-header {
+  text-align: center;
+}
+
+.recipe-title {
+  color: #cc9543;
+  margin-bottom: 10px;
+}
+
+.recipe-subtitle {
+  color: #cc9543;
+}
+
+.recipe-intro {
+  margin-top: 20px;
+}
+
+
+/* ===== IMAGENS ===== */
+
+.recipe-image img,
+.logo img {
+  max-width: 100%;
+  border-radius: 8px;
+  margin: 20px 0;
+}
+
+
+/* ===== LISTA DE RECEITAS (INDEX) ===== */
+
+.recipe-list {
+  list-style: none;
+  padding: 0;
+}
+
+.recipe-item {
+  background: #2c2c2c;
+  margin: 10px 0;
+  padding: 15px;
+  border-left: 4px solid #cc9543;
+  border-radius: 6px;
+}
+
+
+/* ===== LINKS ===== */
+
+a {
+  color: #cc9543;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+/* ===== SEÇÕES DE RECEITA ===== */
+
+.section-title {
+  color: #cc9543;
+  margin-top: 30px;
+}
+
+.ingredients-list,
+.instructions-list {
+  padding-left: 20px;
+}
+
+.ingredients-list li,
+.instructions-list li {
+  margin: 8px 0;
+}
+
+
+/* lista interna da lasanha */
+
+.assembly-steps {
+  margin-top: 10px;
+}
+
+
+/* ===== FOOTER DA RECEITA ===== */
+
+.recipe-footer {
+  margin-top: 30px;
+}
+
+.final-text {
+  margin-bottom: 20px;
+}
+
+.back-link {
+  margin-bottom: 20px;
+}
+
+
+/* ===== LOGO ===== */
+
+.logo {
+  text-align: center;
+  margin-top: 30px;
 }
