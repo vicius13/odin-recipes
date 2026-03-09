@@ -26,5 +26,5 @@ The project is intended to test and improve basic HTML skills, including:
 
 ## Notes
 
-This is a beginner-level project focused on HTML structure and linking. No advanced styling or JavaScript functionality is included.
+This is a beginner-level project focused on HTML structure. No Javascript or CSS.
 
